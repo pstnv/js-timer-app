@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Таймер</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="data:,">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="countdown">
+                <p id="hours">00<span class="unit">ч.</span></p>
+                <p id="minutes">00<span class="unit">м.</span></p>
+                <p id="seconds">00<span class="unit">с.</span></p>
+                <button id="btnClear"><img class="iconClear" src="https://cdn.glitch.global/9feefc8e-da5e-4315-9e7b-fa09110bbaf9/icon_btnClear.png?v=1654000593042" alt="Очистить"></button>
+            </div>
+            <hr>
+            <div class="numbers">
+                <div class="row">
+                    <p class="value">1</p>
+                    <p class="value">2</p>
+                    <p class="value">3</p>
+                </div>
+                <div class="row">
+                    <p class="value">4</p>
+                    <p class="value">5</p>
+                    <p class="value">6</p>
+                </div>
+                <div class="row">
+                    <p class="value">7</p>
+                    <p class="value">8</p>
+                    <p class="value">9</p>
+                </div>
+                <div class="row">
+                    <p class="value">0</p>
+                </div>
+                <button id="btnStart" state="start">Старт</button>
+            </div>
+        </div>
+        <audio id="alarm">
+            <source type="audio/mp3" src="https://cdn.glitch.global/9feefc8e-da5e-4315-9e7b-fa09110bbaf9/alarm.mp3?v=1654003688603">
+        </audio>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+        <script src="script.js"></script>
+
+    </body>
+</html>
