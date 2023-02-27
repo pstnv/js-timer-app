@@ -2,7 +2,7 @@
 <a href="https://pstnv-timer-app.glitch.me/"> https://pstnv-timer-app.glitch.me </a>
 
 <div align="center">
-  <img src="https://cdn.glitch.global/ece60b40-3830-4d48-bb12-fa238aabf422/picPreview_10.png">
+  <img src="src/pics/preview.png">
 </div>
 <br>
 
